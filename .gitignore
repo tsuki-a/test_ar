@@ -1,0 +1,27 @@
+# OS固有のファイル
+.DS_Store
+Thumbs.db
+
+# エディタ・IDEの設定
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# コンパイルや一時ファイル（もしビルド工程がある場合）
+*.log
+*.tmp
+*.bak
+
+# npm使ってる場合
+node_modules/
+
+# Jekyll（GitHub Pagesの自動ビルド）を使わないなら不要だけど、一応
+_site/
+.sass-cache/
+.jekyll-cache/
+
+# 環境変数や鍵
+.env
+*.key
+*.pem
